@@ -15,9 +15,9 @@ const Header = () => {
   };
 
   return (
-    <nav className="navbar row">
+    <nav className="navbar row mx-auto">
       <div className="col-12 col-md-3">
-        <div className="navbar-brand">
+        <div className="navbar-brand mx-auto">
           <Link to="/">
             <img className="logo9" src="/images/logo9.png" alt="logo" />
           </Link>

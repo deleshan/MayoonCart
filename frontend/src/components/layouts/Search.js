@@ -21,7 +21,7 @@ const Search = () => {
 
   return (
     <form onSubmit={searchHandler}>
-      <div className="input-group">
+      <div className="input-group mx-auto">
         <input
           type="text"
           id="search_field"

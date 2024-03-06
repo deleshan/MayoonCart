@@ -664,7 +664,6 @@ ul.CTAs a {
   color: grey;
 }
 .logo9 {
-  width: 280px;
-  margin-left: 40px;
-  margin-top: 30px;
+  width: 90%;
+  margin: auto;
 }
