@@ -80,15 +80,21 @@ const Header = () => {
             Login
           </Link>
         )}
+        <div className="mx-auto">
+          <Link to="/cart">
+            <span id="cart" className="ml-3">
+              <img
+                className="cart-logo"
+                src="/images/cartlogo.png"
+                alt="cart"
+              />
+            </span>
 
-        <Link to="/cart">
-          <span id="cart" className="ml-3">
-            <img className="cart-logo" src="/images/cartlogo.png" alt="cart" />
-          </span>
-        </Link>
-        <span className="ml-1" id="cart_count">
-          {cartItems.length}
-        </span>
+            <span className="ml-1" id="cart_count">
+              {cartItems.length}
+            </span>
+          </Link>
+        </div>
       </div>
       <div className="line"></div>
     </nav>
